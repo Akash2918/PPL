@@ -1,4 +1,4 @@
-print("\nFinding first 10 numbers from geometric series \n")
+print("Finding first 10 numbers from geometric series : ")
 
 fterm = int(raw_input("Enter the first term : "))
 cratio = int(raw_input("Enter the common ratio : "))
@@ -10,5 +10,5 @@ for i in range(0, 10) :
 	y = fterm * x
 	print(y)
 	
-print("\n\n")
+print("")
 	
